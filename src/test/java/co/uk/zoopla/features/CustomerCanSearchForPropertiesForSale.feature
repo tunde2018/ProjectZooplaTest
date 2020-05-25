@@ -36,7 +36,7 @@ Scenario Outline: Customer Can search for properties for sale
       |        |£120,000|£230,000|Houses |3+ |Houses      |
 
   @ignore
-  Scenario Outline: customer can search for any properties
+  Scenario Outline: Error page is displayed for invalid search
     Given I navigate to zoopla homepage
     When I enter a "<Location>" in the search text box
     And I select "<MinPrice>" from Min price dropdown
